@@ -115,3 +115,12 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+function MyQueryFunction(){
+  var queryname = document.getElementById("namequery").value
+  var querynumber = document.getElementById("numberquery").value
+  var querymessage = document.getElementById("messagequery").value
+  console.log(queryname)
+  var url = 'https:wa.me/9341170462/?text=Myself: ' + queryname + ' Query : ' + querymessage + ' Contact : ' + querynumber;
+  window.location = url;
+}
