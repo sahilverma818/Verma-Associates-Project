@@ -120,7 +120,6 @@ function MyQueryFunction(){
   var queryname = document.getElementById("namequery").value
   var querynumber = document.getElementById("numberquery").value
   var querymessage = document.getElementById("messagequery").value
-  console.log(queryname)
-  var url = 'https:wa.me/9341170462/?text=Myself: ' + queryname + ' Query : ' + querymessage + ' Contact : ' + querynumber;
+  var url = 'https:wa.me/9341170462/?text=Name: ' + queryname + '%0AQuery : ' + querymessage + '%0AContact : ' + querynumber;
   window.location = url;
 }
