@@ -241,13 +241,13 @@ nav{
 }
 .image{
     margin: auto 0;
-    width: 380px;
-    height: 380px;
+    width: 600px;
+    height: 600px;
     animation: imgFloat 7s ease-in-out infinite;
 }
 .image img{
-    width: 380px;
-    height: 380px;
+    width: 600px;
+    height: 600px;
     object-fit: contain;
 }
 @keyframes imgFloat {
@@ -639,4 +639,11 @@ footer{
     .input-field{
         width: 100%;
     }
+}
+
+
+.rotate-icon {
+    display: inline-block;
+    transform: rotate(45deg); /* Rotate by 45 degrees */
+    transition: transform 0.3s ease; /* Smooth rotation transition */
 }
