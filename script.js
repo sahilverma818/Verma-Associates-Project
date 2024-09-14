@@ -120,6 +120,6 @@ function MyQueryFunction(){
   var queryname = document.getElementById("namequery").value
   var querynumber = document.getElementById("numberquery").value
   var querymessage = document.getElementById("messagequery").value
-  var url = 'https://api.whatsapp.com/send/?phone=9341170462&text=Name: ' + encodeURIComponent(queryname) + '%0AQuery : ' + encodeURIComponent(querymessage) + '%0AContact : ' + encodeURIComponent(querynumber);
+  var url = 'https://api.whatsapp.com/send/?phone=9341170462&text=Hello! Mr Sagar Verma%0AThis is ' + encodeURIComponent(queryname) + ' here.%0AI have some query/concern mentioned below:%0A%0A "' + encodeURIComponent(querymessage) + '"%0A%0AYou can contact me at : ' + encodeURIComponent(querynumber);
   window.location.href = url;
 }
